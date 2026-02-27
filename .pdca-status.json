@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-02-27T15:30:00",
+  "features": {
+    "business-plan": {
+      "phase": "plan",
+      "status": "in_progress",
+      "startDate": "2025-02-25",
+      "description": "AI AR Agent 사업계획서 작성",
+      "documents": {
+        "plan": "docs/01-plan/features/business-plan.plan.md",
+        "research": [
+          "docs/research/market-analysis.md",
+          "docs/research/competitor-analysis.md",
+          "docs/research/domestic-competitor-analysis.md",
+          "docs/research/tech-trends.md",
+          "docs/research/policy-guide.md",
+          "docs/research/convai-benchmark.md",
+          "docs/research/spatial-memory-feature-research.md"
+        ],
+        "planning": [
+          "docs/plan/executive-summary.md",
+          "docs/plan/business-model.md",
+          "docs/plan/financial-plan.md",
+          "docs/plan/final-proposal.md"
+        ],
+        "features": [
+          "docs/plan/features/spatial-memory-feature.md"
+        ]
+      },
+      "tasks": [
+        {
+          "id": "R-1",
+          "name": "시장 분석",
+          "status": "completed"
+        },
+        {
+          "id": "R-2",
+          "name": "경쟁사 분석",
+          "status": "completed"
+        },
+        {
+          "id": "R-3",
+          "name": "국내 경쟁사 분석",
+          "status": "completed"
+        },
+        {
+          "id": "R-4",
+          "name": "기술 트렌드 조사",
+          "status": "completed"
+        },
+        {
+          "id": "R-5",
+          "name": "정부지원사업 가이드",
+          "status": "completed"
+        },
+        {
+          "id": "R-6",
+          "name": "Convai 벤치마킹",
+          "status": "completed"
+        },
+        {
+          "id": "R-7",
+          "name": "Space Memory 핵심 기능 리서치",
+          "status": "completed"
+        },
+        {
+          "id": "P-1",
+          "name": "사업 개요 작성",
+          "status": "completed"
+        },
+        {
+          "id": "P-2",
+          "name": "비즈니스 모델 작성",
+          "status": "completed"
+        },
+        {
+          "id": "P-3",
+          "name": "재무 계획 작성",
+          "status": "completed"
+        },
+        {
+          "id": "P-4",
+          "name": "최종 사업계획서 통합",
+          "status": "completed"
+        },
+        {
+          "id": "P-5",
+          "name": "Space Memory 기능 기획서 작성",
+          "status": "completed"
+        },
+        {
+          "id": "P-6",
+          "name": "사업계획서 최종 검토",
+          "status": "completed"
+        }
+      ],
+      "progress": {
+        "research": "100%",
+        "planning": "100%",
+        "overall": "100%"
+      },
+      "nextAction": "정부지원사업 제출 준비 또는 Design 단계 진입"
+    }
+  },
+  "history": [
+    {
+      "date": "2025-02-25",
+      "action": "plan_created",
+      "feature": "business-plan"
+    },
+    {
+      "date": "2025-02-25",
+      "action": "research_started",
+      "feature": "business-plan"
+    },
+    {
+      "date": "2025-02-26",
+      "action": "research_completed",
+      "feature": "business-plan"
+    },
+    {
+      "date": "2025-02-26",
+      "action": "spatial_memory_research_added",
+      "feature": "business-plan"
+    },
+    {
+      "date": "2025-02-27",
+      "action": "status_updated",
+      "feature": "business-plan"
+    },
+    {
+      "date": "2025-02-27",
+      "action": "research_integrated",
+      "feature": "business-plan",
+      "details": "모든 리서치 문서 내용을 final-proposal.md에 반영 완료"
+    }
+  ]
+}
